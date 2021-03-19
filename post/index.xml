@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 废材帮</title>
+    <link>https://minh15158.github.io/post/</link>
+    <description>Recent content in Posts on 废材帮</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 19 Mar 2021 22:15:54 +0800</lastBuildDate><atom:link href="https://minh15158.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homebrew换源</title>
+      <link>https://minh15158.github.io/post/homebrew/</link>
+      <pubDate>Fri, 19 Mar 2021 22:15:54 +0800</pubDate>
+      
+      <guid>https://minh15158.github.io/post/homebrew/</guid>
+      <description># usr/local/Homebrew cd &amp;#34;$(brew --repo)&amp;#34;	git remote set-url origin git://mirrors.ustc.edu.cn/brew.git # usr/local/Homebrew/Library/Taps/homebrew/homebrew-core cd &amp;#34;$(brew --repo)/Library/Taps/homebrew/homebrew-core&amp;#34; git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git # usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask cd &amp;#34;$(brew --repo)/Library/Taps/homebrew/homebrew-cask&amp;#34; git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-cask.git # usr/local/Homebrew git -C &amp;#34;$(brew --repo)&amp;#34; remote set-url origin https://mirrors.ustc.edu.cn/brew.git git -C &amp;#34;$(brew --repo)&amp;#34; remote -v # usr/local/Homebrew/Library/Taps/homebrew/homebrew-core git -C &amp;#34;$(brew --repo homebrew/core)&amp;#34; remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git git -C &amp;#34;$(brew --repo homebrew/core)&amp;#34; remote -v # usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask git -C &amp;#34;$(brew --repo homebrew/cask)&amp;#34; remote set-url origin https://mirrors.</description>
+    </item>
+    
+  </channel>
+</rss>
